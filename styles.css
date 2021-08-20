@@ -20,13 +20,15 @@
   display: block;
   width: 384px;
   margin: 50px auto;
-  color: blue;
+  border-color: blue;
 }
 #section2 {
   display: block;
   width: 384px;
   margin: 50px auto;
-  color: cyan;
+  border-color: cyan;
+  border-width: thin;
+  border-style: dashed;
 }
 
 p {
