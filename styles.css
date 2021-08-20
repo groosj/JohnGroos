@@ -20,13 +20,13 @@
   display: block;
   width: auto;
   margin: 50px auto;
-  border-color: blue;
+  background-color: blue;
 }
 .section2 {
   display: block;
   width: auto;
   margin: 50px auto;
-  border-color: cyan;
+  background-color: cyan;
   border-width: thin;
   border-style: dashed;
 }
