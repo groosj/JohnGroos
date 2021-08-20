@@ -1,8 +1,10 @@
 .page-container {
   display: grid;
   grid-template-areas:
-    'p';
+    'section1'
+    'section2';
 }
+
 
 * {
   margin:0px;
@@ -14,10 +16,22 @@
   width:384px;
   margin: 50px auto;
 }
+#section1 {
+  display: block;
+  width: 384px;
+  margin: 50px auto;
+  color: blue;
+}
+#section2 {
+  display: block;
+  width: 384px;
+  margin: 50px auto;
+  color: cyan;
+}
 
 p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px "Arial",monospace;
 }
